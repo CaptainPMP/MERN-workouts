@@ -66,6 +66,10 @@ header a {
   border-radius: 50%;
   color: #333;
 }
+.workout-details span:hover {
+  background: #e7195a;
+  color: #fff;
+}
 
 /* new workout form */
 label, input {
