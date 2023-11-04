@@ -13,7 +13,7 @@ const Home = () => {
             .then((res) => {
                 dispatch({type:'SET_WORKOUTS', payload: res.data})
             })
-    }, [])
+    }, [dispatch])
 
   return (
     <div className='home'>
